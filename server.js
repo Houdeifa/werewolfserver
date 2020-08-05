@@ -2,7 +2,7 @@ var http = require('http');
 var fs = require('fs');
 
 var PORT = process.env.PORT || 5000
-var PORT = 80
+var PORT = 8080
 // Chargement du fichier index.html affiché au client
 var server = http.createServer(function(req, res) {
     console.log('Serveur crée !' + PORT);
