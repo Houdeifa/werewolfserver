@@ -1,0 +1,19 @@
+{
+  "name": "werewolfserver",
+  "version": "1.0.0",
+  "description": "server for werewolf game",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "werewolf",
+    "nodeJs"
+  ],
+  "author": "Houdeifa Aflihaou",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
